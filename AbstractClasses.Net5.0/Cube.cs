@@ -17,9 +17,14 @@ namespace AbstractClasses.Net5._0
             Name = "Cube";
             Length = length;
         }
-        public override void Volume()
+        public override double Volume()
         {
-            throw new NotImplementedException();
+            return Math.Pow(Length, 3);
+        }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine($"\n This is a {Name}");
         }
     }
 }

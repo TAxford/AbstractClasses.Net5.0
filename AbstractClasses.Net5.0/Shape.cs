@@ -18,7 +18,7 @@ namespace AbstractClasses.Net5._0
         }
 
         //method
-        public abstract void Volume();
+        public abstract double Volume();
 
     }
 }
