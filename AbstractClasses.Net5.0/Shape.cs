@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractClasses.Net5._0
 {
-    internal class Shape
+    abstract class Shape
     {
+
+
     }
 }
