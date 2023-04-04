@@ -14,6 +14,15 @@ namespace AbstractClasses.Net5._0
                 Console.WriteLine("{0} has a volume of {1}", shape.Name, shape.Volume());
 
                 Cube IceCube = shape as Cube;
+                if (IceCube == null)
+                {
+                    Console.WriteLine("This shape is no cube");
+                }
+
+                if (shape is Cube)
+                {
+                    Console.WriteLine("This Shape is a cube");
+                }
             }
         }
     }
