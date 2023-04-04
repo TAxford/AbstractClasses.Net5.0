@@ -23,6 +23,9 @@ namespace AbstractClasses.Net5._0
                 {
                     Console.WriteLine("This Shape is a cube");
                 }
+
+                object cube1 = new Cube(7);
+                Cube cube2 = (Cube)cube1;
             }
         }
     }
