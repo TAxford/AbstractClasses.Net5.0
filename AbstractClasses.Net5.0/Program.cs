@@ -26,6 +26,8 @@ namespace AbstractClasses.Net5._0
 
                 object cube1 = new Cube(7);
                 Cube cube2 = (Cube)cube1;
+
+                Console.WriteLine("{0} has a Volume of {1}", cube2.Name, cube2.Volume());
             }
         }
     }
