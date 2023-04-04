@@ -10,23 +10,23 @@ namespace AbstractClasses.Net5._0
     internal class Sphere : Shape
     {
         //property
-        public double Length { get; set; }
+        public double Radius { get; set; }
 
         //Constructor
-        public Sphere(double length)
+        public Sphere(double radius)
         {
             Name = "Sphere";
-            Length = length;
+            Radius = radius;
         }
         public override double Volume()
         {
-            return Math.Pow(Length, 3);
+            return Math.Pow(Radius, 3);
         }
 
         public override void GetInfo()
         {
             base.GetInfo();
-            Console.WriteLine($"The Sphere has a length of {Length}");
+            Console.WriteLine($"The Sphere has a length of {Radius}");
         }
     }
 }
