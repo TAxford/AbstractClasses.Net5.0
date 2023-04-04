@@ -8,6 +8,9 @@ namespace AbstractClasses.Net5._0
 {
     abstract class Shape
     {
+        //property
+        public string Name { get; set; }
+        
 
 
     }
