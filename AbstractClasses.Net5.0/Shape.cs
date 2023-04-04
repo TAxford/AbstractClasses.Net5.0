@@ -11,7 +11,11 @@ namespace AbstractClasses.Net5._0
         //property
         public string Name { get; set; }
         
-
+        //Constructor
+        public virtual void GetInfo() 
+        {
+            Console.WriteLine($"\n This is a {Name}");
+        }
 
     }
 }
