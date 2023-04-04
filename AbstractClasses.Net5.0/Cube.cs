@@ -25,7 +25,7 @@ namespace AbstractClasses.Net5._0
         public override void GetInfo()
         {
             base.GetInfo();
-            Console.WriteLine($"The Cube has a length of {Length}");
+            Console.WriteLine("The Cube has a length of {Length}");
         }
     }
 }
