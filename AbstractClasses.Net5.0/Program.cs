@@ -12,6 +12,8 @@ namespace AbstractClasses.Net5._0
             {
                 shape.GetInfo();
                 Console.WriteLine("{0} has a volume of {1}", shape.Name, shape.Volume());
+
+                Cube IceCube = shape as Cube;
             }
         }
     }
