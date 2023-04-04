@@ -17,5 +17,8 @@ namespace AbstractClasses.Net5._0
             Console.WriteLine($"\n This is a {Name}");
         }
 
+        //method
+        public abstract void Volume();
+
     }
 }
