@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace AbstractClasses.Net5._0
 {
-    internal class Cube : Shape
+    internal class Sphere : Shape
     {
         //property
         public double Length { get; set; }
 
         //Constructor
-        public Cube(double length)
+        public Sphere(double length)
         {
-            Name = "Cube";
+            Name = "Sphere";
             Length = length;
         }
         public override double Volume()
@@ -25,7 +26,7 @@ namespace AbstractClasses.Net5._0
         public override void GetInfo()
         {
             base.GetInfo();
-            Console.WriteLine($"The Cube has a length of {Length}");
+            Console.WriteLine($"The Sphere has a length of {Length}");
         }
     }
 }
