@@ -8,5 +8,13 @@ namespace AbstractClasses.Net5._0
 {
     internal class Cube : Shape
     {
+        //property
+        public double Length { get; set; }
+
+        
+        public override void Volume()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
