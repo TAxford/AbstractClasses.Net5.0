@@ -11,7 +11,12 @@ namespace AbstractClasses.Net5._0
         //property
         public double Length { get; set; }
 
-        
+        //Constructor
+        public Cube(double length)
+        {
+            Name = "Cube";
+            Length = length;
+        }
         public override void Volume()
         {
             throw new NotImplementedException();
