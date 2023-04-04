@@ -20,13 +20,13 @@ namespace AbstractClasses.Net5._0
         }
         public override double Volume()
         {
-            return Math.Pow(Radius, 3);
+            return Math.PI * (Math.Pow(Radius, 3)) * 4 / 3;
         }
 
         public override void GetInfo()
         {
             base.GetInfo();
-            Console.WriteLine($"The Sphere has a length of {Radius}");
+            Console.WriteLine($"The Sphere has a radius of {Radius}");
         }
     }
 }
